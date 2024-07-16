@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
     galleryContainer.innerHTML = galleryItems;
 
     
-    const gallery = new SimpleLightbox('.gallery a', {
+  const galleryItems = $('.gallery a').simpleLightbox({
         captionsData: 'alt',
         captionDelay: 250
     });
